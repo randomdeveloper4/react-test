@@ -1,4 +1,3 @@
-
 const currentState = {
     counter : 0,
     isLoggedIn : false

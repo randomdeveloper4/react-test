@@ -18,15 +18,13 @@ class InnerComponent extends React.Component {
 
                     </div>
                     <div className="col-4">
-                    <Link to="/routeFirst/innerLinkTwo">Link 2</Link>
-
+                        <Link to="/routeFirst/innerLinkTwo">Link 2</Link>
                     </div>
                 </div>
 
                 <Switch>
-
-                <Route path="/routeFirst/innerLinkOne"> Inner Link One Content </Route>
-                <Route path="/routeFirst/innerLinkTwo"> Inner Link Two Content </Route>
+                    <Route path="/routeFirst/innerLinkOne"> Inner Link One Content </Route>
+                    <Route path="/routeFirst/innerLinkTwo"> Inner Link Two Content </Route>
                 </Switch>
 
             </div>

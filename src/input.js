@@ -1,6 +1,6 @@
 import React from "react";
 
-const InpUT = (props) => {
+const InpUT = props => {
     return (
         <React.Fragment>
             <input {...props} />

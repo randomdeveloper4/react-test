@@ -2,7 +2,6 @@ import React from 'react';
 import InpUT from './input';
 import {connect} from "react-redux";
 
-
 class Dispatcher extends React.Component {
     
     onClickHANdler() {
